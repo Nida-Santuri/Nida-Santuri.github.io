@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nida Santuri Fishekqiu</title>
+  <meta name="description" content="CV of Nida Santuri Fishekqiu: Lecturer and Researcher in Information Systems & IT." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f172a;
+      --bg-soft:#0b1228;
+      --card:#111827;
+      --muted:#94a3b8;
+      --text:#e5e7eb;
+      --accent:#60a5fa;
+      --accent-2:#22d3ee;
+      --ring: 0 0 0 3px rgba(96,165,250,.25);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;scroll-behavior:smooth;background:linear-gradient(180deg,var(--bg),#0b132e)}
+    body{font-family:"Inter",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);line-height:1.6}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+
+    nav{position:sticky;top:0;backdrop-filter:saturate(180%) blur(12px);background:rgba(2,6,23,.75);border-bottom:1px solid rgba(148,163,184,.15);z-index:50}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 24px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.3px}
+    .brand .dot{width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 0 24px rgba(34,211,238,.6)}
+    .menu{display:flex;gap:18px;flex-wrap:wrap}
+    .menu a{color:var(--text);opacity:.85}
+
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;padding:56px 24px}
+    .card{background:linear-gradient(180deg,rgba(17,24,39,.65),rgba(17,24,39,.35));border:1px solid rgba(148,163,184,.18);border-radius:18px;padding:28px;box-shadow:0 10px 30px rgba(2,6,23,.35)}
+    .title{font-size:clamp(28px,4vw,42px);line-height:1.15;margin:4px 0 10px;font-weight:800;display:flex;align-items:center;gap:16px}
+    .title img{width:60px;height:60px;border-radius:50%;object-fit:cover;box-shadow:0 0 10px rgba(0,0,0,.4)}
+    .subtitle{color:var(--muted);font-size:clamp(14px,1.6vw,16px)}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .badge{background:rgba(96,165,250,.15);border:1px solid rgba(96,165,250,.25);color:#cfe6ff;padding:6px 10px;border-radius:999px;font-size:12px}
+
+    .contact{display:grid;gap:8px;margin-top:18px}
+    .contact a{display:inline-flex;align-items:center;gap:8px}
+    .kicker{color:#cbd5e1;text-transform:uppercase;letter-spacing:.2em;font-weight:700;font-size:12px;opacity:.8}
+
+    section{padding:24px}
+    h2{font-size:22px;margin:0 0 16px 0}
+    .grid{display:grid;gap:16px}
+    .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid-2,.grid-3{grid-template-columns:1fr}}
+
+    .item{background:linear-gradient(180deg,rgba(17,24,39,.7),rgba(17,24,39,.4));border:1px solid rgba(148,163,184,.15);border-radius:16px;padding:18px}
+    .item h3{margin:0 0 6px 0;font-size:16px}
+    .meta{color:var(--muted);font-size:13px}
+    .pill{display:inline-block;background:rgba(34,211,238,.14);border:1px solid rgba(34,211,238,.25);padding:4px 8px;border-radius:999px;font-size:12px;color:#b6f6ff;margin-right:8px}
+
+    .timeline{position:relative;margin-left:6px}
+    .timeline:before{content:"";position:absolute;left:10px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--accent),transparent)}
+    .entry{position:relative;padding-left:28px;margin:18px 0}
+    .entry:before{content:"";position:absolute;left:4px;top:6px;width:14px;height:14px;border-radius:999px;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 0 0 3px rgba(96,165,250,.15)}
+
+    footer{border-top:1px solid rgba(148,163,184,.15);padding:30px 24px;color:var(--muted);text-align:center}
+
+    @media print{
+      nav,.badges{display:none}
+      body{background:#fff;color:#111}
+      .card,.item{border:1px solid #ddd;box-shadow:none}
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner container">
+      
+      <div class="menu">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#publications">Publications</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#conferences">Conferences</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero container">
+    <div class="card">
+      <div class="kicker"></div>
+      <h1 class="title"><img src="Nida-Santuri.jpg" alt="Profile photo of Nida" /> Nida Santuri Fishekqiu</h1>
+      <p class="subtitle">Lecturer & Researcher in Information Systems and IT · PhD Candidate (IS&M)</p>
+      <div class="badges">
+        <span class="badge">AAB College — Lecturer</span>
+        <span class="badge">SEEU — Doctoral Studies</span>
+        <span class="badge">Web & Data Systems</span>
+      </div>
+      <div class="contact" id="contact">
+        <a href="mailto:nida.santuri20@gmail.com">✉️ nida.santuri20@gmail.com</a>
+        <a href="mailto:nida.santuri@universitetiaab.com">✉️ nida.santuri@universitetiaab.com</a>
+        <a href="tel:+38349228146">📞 +383 49 228 146</a>
+        <a href="https://www.aab-edu.net" target="_blank" rel="noreferrer">🌐 www.aab-edu.net</a>
+        
+      </div>
+    </div>
+    <div class="card">
+      <h2 id="about" style="margin-top:0">About Me</h2>
+      <p>Lecturer in Bachelor programs (AAB College) focusing on <strong>Advanced Database Systems</strong> and <strong>Web Application Design</strong>. Previous experience as a teaching assistant in courses such as Artificial Intelligence, Project Management, Human-Computer Interaction, and more. Currently pursuing doctoral studies at <em>South East European University</em> (Information Systems & Management).</p>
+      <div class="badges">
+        <span class="pill">Project Management</span>
+        <span class="pill">Excellent Communication</span>
+        <span class="pill">Analytical & Problem Solving</span>
+        <span class="pill">Multicultural Environments</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <div class="entry card">
+          <h3>Lecturer — AAB College</h3>
+          <div class="meta">Prishtina, 03/01/2023 — present</div>
+          <ul>
+            <li>Lecturer in courses: Advanced Database Systems; Web Application Design.</li>
+          </ul>
+        </div>
+        <div class="entry card">
+          <h3>Teaching Assistant — AAB College</h3>
+          <div class="meta">Prishtina, 03/14/2020 — 01/01/2023</div>
+          <ul>
+            <li>Courses: Artificial Intelligence; Mathematics; Project Management; Human-Computer Interaction; Basics of Electrotechnics; Object-Oriented Programming.</li>
+          </ul>
+        </div>
+        <div class="entry card">
+          <h3>Web Developer — MakerSpace</h3>
+          <div class="meta">Prizren, 05/2019</div>
+          <ul>
+            <li>Engagement in web development at MakerSpace Prizren.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education & Training</h2>
+      <div class="grid grid-2">
+        <div class="item">
+          <h3>PhD in Information Systems & Management</h3>
+          <div class="meta">South East European University — Tetovo · 10/10/2024 — present</div>
+        </div>
+        <div class="item">
+          <h3>MSc in Computer Science</h3>
+          <div class="meta">AAB College — Prishtina · 11/10/2017 — 01/10/2020</div>
+        </div>
+        <div class="item">
+          <h3>BSc in Information Technologies & Telecommunications</h3>
+          <div class="meta">University “Ukshin Hoti” — Prizren · 10/01/2013 — 03/28/2017</div>
+        </div>
+        <div class="item">
+          <h3>Professional Trainings</h3>
+          <div class="meta">QAPI (2021–2023): Project Planning & Management; Higher Education Methodology; Development Project Planning</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="grid grid-3">
+        <div class="item">
+          <h3>Languages</h3>
+          <div class="meta">Albanian (native), English (B1), Turkish (B2)</div>
+        </div>
+        <div class="item">
+          <h3>Technical</h3>
+          <div class="meta">HTML, CSS, JavaScript, OOP, SQL, NLP</div>
+        </div>
+        <div class="item">
+          <h3>Soft Skills</h3>
+          <div class="meta">Communication, flexibility, teamwork & independence, creativity, adaptability</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <div class="grid">
+        <article class="item">
+          <h3>Comparison of Cloud Storage in Terms of Privacy and Personal Data — Sync, pCloud, IceDrive, Egnyte (2024)</h3>
+          <div class="meta">Open Research Europe, Scopus — First version: 28 Jun 2024 · <a href="https://doi.org/10.12688/openreseurope.16631.1" target="_blank" rel="noreferrer">DOI</a></div>
+          <div class="meta">Authors: Elissa Mollakuqe, Ersan Hamdiu, <strong>Nida Santuri Fishekqiu</strong>, Samir Jakupi, Jusuf Qarkaxhija</div>
+        </article>
+        <article class="item">
+          <h3>Design & Implementation of Web Applications for the Well-Being of Children with Dyslexia (2023)</h3>
+          <div class="meta">International Journal of Education & Well-Being, Vol. 1 — <a href="https://inteduwellbeing.com/index.php/education" target="_blank" rel="noreferrer">Link</a></div>
+          <div class="meta">Authors: <strong>Nida Santuri Fishekqiu</strong>, Mentor Hamiti</div>
+        </article>
+        <article class="item">
+          <h3>Analysis of Data Security & Privacy Institutions According to GDPR in the Republic of Kosovo (2022)</h3>
+          <div class="meta">e-ISBN: 978-605-72066-206 — <a href="https://icente.selcuk.edu.tr/program" target="_blank" rel="noreferrer">Program</a></div>
+          <div class="meta">Authors: Elissa Mollakuqe, Samir Jakupi, <strong>Nida Santuri Fishekqiu</strong>, Ersan Hamdiu</div>
+        </article>
+        <article class="item">
+          <h3>Use of Social Networks Before and During the Covid-19 Pandemic (2020)</h3>
+          <div class="meta">Virtual International Academic Conference — Transformation and Consequences in Society due to COVID-19</div>
+          <div class="meta">Author: <strong>Nida Santuri</strong></div>
+        </article>
+      </div>
+    </section>
+
+  
+
+    <section id="conferences">
+      <h2>Conferences</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>ISCBE 2025</h3>
+          <div class="meta">International Scientific Conference on Business & Economics, SEEU, Tetovo</div>
+        </div>
+        <div class="item">
+          <h3>Virtual International Academic Conference (2020)</h3>
+          <div class="meta">Transformation and Consequences in Society due to COVID-19</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="y"></span> Nida Santuri Fishekqiu 
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
